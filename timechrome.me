@@ -1,0 +1,23 @@
+
+Develop a chrom extention, like the recorder function in chrome devtools, with the following functions
+1 Record each step of chrome operation, such as which web page to go to from start, which button to click and the information to enter, etc. Use HTML element selector to record element operation instead of the specific location of the web page.
+2 Record the waiting time between each operation
+3 There is a finish button, the recording ends and is saved in the chrome extention solution.
+4 Draw a flowchart of all operation records and waiting times, and the flowchart has the operation instructions for each step.
+5 The saved solution can click the test button to repeat each step of this solution on the web page.
+
+
+开发一个chrom extention  , like chrome devtools 中的recorder功能,功能点如下
+1 记录每一步chrome 的操作, 例如从start开始goto哪一个网页,点击哪一个button和录入信息等. 使用html的元素选择器来记录元素操作而不是网页的具体位置.
+2  记录每一个操作之间的等待时间
+3  有完成按钮,记录结束，并保存在chrome extention 的方案中.
+4 将所有操作记录和等待时间画出流程图,流程图上有每一步骤的操作说明.
+5  该保存的方案可以点击测试按钮，在网页上重复操作这个方案的每一步骤.
+
+MutationObserver 
+
+
+健壮的选择器：创建独特且能够灵活应对页面细微变化的选择器。
+计时和同步（回放）：确保操作仅在页面准备就绪（元素存在、JS 已加载等）后执行。商业工具在这方面投入了大量精力。
+iframe 和 Shadow DOM：与 iframe 或 Shadow DOM 中的元素交互需要更复杂的逻辑（例如，chrome.scripting.executeScript 定位到特定框架，或访问 shadowRoot）。为了简单起见，建议先忽略这些。
+动态内容/SPA：需要大量修改 DOM 且无需重新加载整个页面的页面。MutationObserver 可能会有所帮助。
