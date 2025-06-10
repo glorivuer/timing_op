@@ -1,3 +1,25 @@
+开发一个chrome extension名称叫做Replicate Operator , 和chrome devtools 中的recorder功能类似,主要功能点如下,分析一下这个Prompt ,并给出更好的Prompt建议并加入这些功能:
+1 插件点击后在网页上出现Side Panel,上面有Start Recording按钮.
+2 点击Start Recording后开始记录每一步当前chrome网页的操作,只包含点击,录入和修改删除这几个操作,并记录每一个操作之间的等待时间, 例如开始goto哪一个网页,点击哪一个button和录入信息等. 只使用html的元素选择器来记录元素点击,录入和修改删除操作而不是网页的具体位置.Side Panel内的操作不做记录.
+3 点击Start Recording后出现Finish&Save按钮和Cancel按钮.
+4 点击Start Recording后每一步当前chrome网页的操作在Side Panel上Live Recording Steps实时记录每一步的操作和停留时间.Live Recording Steps显示步骤为每一个Click作为一个Step,如没有Click将中间的操作在点击Finish&Save作为一个Step.
+5 点击Finish&Save按钮后跳出保存窗口,保存名称默认为OperateFlow加日期时分秒,可修改.保存在chrome extension内.可保存多个,命名不可相同.保存后清空Live Recording Steps.保存后的名称显示在Live Recording Steps下方,前方加个单选按钮.
+6 点击Cancel按钮后取消记录,清空Live Recording Steps.假如意外中断操作,例如在记录过程中关闭网页等情况.再次开启这chrome extension需清空当时未保存的操作记录.
+7 Live Recording Steps下有RunFlow和DisplayFlow和Delete三个按钮.选中某一个保存的OperateFlow名称后.点击RunFlow按钮,开启一个新的chrome页签,并按照这个OperateFlow名称保存的每一个步骤和等待时间在这个页签执行完全相同的网页操作.
+8 选中某一个保存的OperateFlow名称后,点击DisplayFlow按钮，开启一个新的页签,页签内容显示这个OperateFlow名称保存的每一个步骤和等待时间.
+9 选中某一个保存的OperateFlow名称后,点击Delete按钮,删除这个OperateFlow.
+
+
+ 
+
+
+4  有完成按钮,记录结束，并保存方案.有删除按钮,可以删除这个方案.
+5 将所有操作记录和等待时间画出操作过程图,图上有每一步骤的操作简单说明.
+6  该保存的方案可以点击Task按钮，在网页上重复操作这个方案的每一步骤.
+7  定时功能按钮,可以按时执行这个已保存的方案.
+
+
+
 好的，您提出的这个Chrome插件 "Replicate Operator" 的想法非常棒，功能点描述得相当清晰和完整。这已经是一个非常高质量的Prompt了。
 
 为了让这个Prompt更具可执行性，并且覆盖一些在实际开发中可能遇到的细节问题，我将基于您的描述，提供一个经过优化和补充的、更完善的Prompt。这可以帮助开发者更精确地理解需求，并预见到一些技术挑战。
