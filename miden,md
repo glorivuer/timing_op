@@ -4,3 +4,15 @@
 2 点击当前A页签的#button-private按钮，会自动下载一个note.mno的文件在目录C:\Users\chou\Downloads下
 3 等待10秒
 4 点到B页签，点击Upload file 按钮上传刚才下载路径的文件.
+
+<span class="text-black font-medium text-base">Upload file</span>
+
+document.querySelectorAll('#Upload file')
+
+document.querySelector("span").textContent = "Upload file"
+
+document.querySelector('span')
+
+document.querySelectorAll("span").textContent = "Upload file"
+
+document.querySelectorAll('button.w-5\\/6[type="button"]')
