@@ -1,0 +1,6 @@
+开发一个chrome extension名称叫做Customize Operator , 主要功能点如下,分析一下这个Prompt ,并给出更好的Prompt建议并加入这些功能:
+1 插件点击后在网页上出现Side Panel,上面有Start Operating按钮.
+2 当前网页有两个页签已开启，A页签是网页页签，B页签是另外一个chrome extension的页签
+2 点击当前A页签的#button-private按钮，会自动下载一个note.mno的文件在目录C:\Users\chou\Downloads下
+3 等待10秒
+4 点到B页签，点击Upload file 按钮上传刚才下载路径的文件.
