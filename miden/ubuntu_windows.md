@@ -7,7 +7,11 @@ google-chrome  --disable-gpu --remote-debugging-port=9222
 google-chrome --disable-gpu --user-data-dir=/home/elvelyn/Mychrome/ --remote-debugging-port=9222
 
 
-启动后，在浏览器中访问 http://127.0.0.1:9222/json/version。您会看到一个 JSON 输出，其中包含一个 webSocketDebuggerUrl 字段。复制这个 URL，它就是我们脚本需要的连接地址。
+启动后，在浏览器中访问 
+http://127.0.0.1:9222/json/version
+
+
+。您会看到一个 JSON 输出，其中包含一个 webSocketDebuggerUrl 字段。复制这个 URL，它就是我们脚本需要的连接地址。
 
 
 windows
