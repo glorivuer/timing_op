@@ -14,6 +14,10 @@ http://127.0.0.1:9222/json/version
 。您会看到一个 JSON 输出，其中包含一个 webSocketDebuggerUrl 字段。复制这个 URL，它就是我们脚本需要的连接地址。
 
 
+
+google-chrome --disable-gpu --user-data-dir="/home/elvelyn/.config/google-chrome/"  --remote-debugging-port=9222
+
+
 windows
 
 打开 任务管理器 (快捷键 Ctrl + Shift + Esc)。
