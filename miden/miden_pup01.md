@@ -1,3 +1,6 @@
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="D:\Devts\Miden01\Elven"
+
+
 使用Typescript编写Puppeteer脚本,脚本会使用tsx命令执行,分析一下这个Prompt ,并给出更好的Prompt建议主要功能点如下,下列每一步骤都要有console log来显示成功或错误.
 1 开启指定路径的chome,executablePath ,C:\Program Files\Google\Chrome\Application,userDataDir用户数据目录路径是:D:\Devts\Miden01\Elven,设置 headless: false.
 2 去到网站https://faucet.testnet.miden.io/ , 简称A页签,找到元素input id="account-address", 录入0x501c2385d304ca10000849fc6e1855,选择<select id="asset-amount">,<option value="1000">1000</option>
