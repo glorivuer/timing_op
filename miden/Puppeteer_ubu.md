@@ -9,5 +9,10 @@ windows
 C:\Users\earwe\.cache\puppeteer\chrome\win64-138.0.7204.157\chrome-win64\chrome.exe
 "C:\Users\earwe\.cache\puppeteer\chrome\win64-138.0.7204.157\chrome-win64\chrome.exe"  --user-data-dir="D:\Dev\Devts\egreter"
 
+"C:\Program Files\Google\Chrome\Application\chrome.exe"  --user-data-dir="D:\Dev\Devts\egretor"
+
+"C:\Users\earwe\.cache\puppeteer\chrome\win64-138.0.7204.157\chrome-win64\chrome.exe"  --user-data-dir="D:\Dev\Devts\egretor"
+
+
 
 google-chrome --disable-gpu --no-sandbox --user-data-dir=/home/elvelyn/egreter/
